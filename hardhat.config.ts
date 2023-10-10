@@ -1,9 +1,12 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 
+/** hard配置信息
+ * https://hardhat.org/hardhat-runner/docs/config
+ */
 const config: HardhatUserConfig = {
   solidity: "0.8.20",
-  defaultNetwork: "bsctest",
+  defaultNetwork: "hardhat",
   networks: {
     hardhat: {
     },
